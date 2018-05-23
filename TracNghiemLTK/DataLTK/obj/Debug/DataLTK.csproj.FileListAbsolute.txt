@@ -1,0 +1,32 @@
+D:\Projects\TracNghiemLTK\DataLTK\bin\Debug\DataLTK.dll.config
+D:\Projects\TracNghiemLTK\DataLTK\bin\Debug\DataLTK.dll
+D:\Projects\TracNghiemLTK\DataLTK\bin\Debug\DataLTK.pdb
+D:\Projects\TracNghiemLTK\DataLTK\bin\Debug\EntityFramework.dll
+D:\Projects\TracNghiemLTK\DataLTK\bin\Debug\EntityFramework.SqlServer.dll
+D:\Projects\TracNghiemLTK\DataLTK\bin\Debug\EntityFramework.xml
+D:\Projects\TracNghiemLTK\DataLTK\bin\Debug\EntityFramework.SqlServer.xml
+D:\Projects\TracNghiemLTK\DataLTK\obj\Debug\DataLTK.dll
+D:\Projects\TracNghiemLTK\DataLTK\obj\Debug\DataLTK.pdb
+D:\Projects\TracNghiemLTK\DataLTK\bin\Debug\PagedList.dll
+D:\Projects\TracNghiemLTK\DataLTK\bin\Debug\PagedList.Mvc.dll
+D:\Projects\TracNghiemLTK\DataLTK\bin\Debug\PagedList.xml
+D:\Projects\TracNghiemLTK\DataLTK\bin\Debug\PagedList.Mvc.xml
+D:\Projects\TracNghiemLTK\DataLTK\obj\Debug\DataLTK.csprojResolveAssemblyReference.cache
+D:\Projects\TracNghiemLTK\DataLTK\obj\Debug\DataLTK.csproj.CoreCompileInputs.cache
+E:\Chau Milano\LT Web\TracNghiemLTK\DataLTK\bin\Debug\DataLTK.dll.config
+E:\Chau Milano\LT Web\TracNghiemLTK\DataLTK\bin\Debug\DataLTK.dll
+E:\Chau Milano\LT Web\TracNghiemLTK\DataLTK\bin\Debug\DataLTK.pdb
+E:\Chau Milano\LT Web\TracNghiemLTK\DataLTK\bin\Debug\EntityFramework.dll
+E:\Chau Milano\LT Web\TracNghiemLTK\DataLTK\bin\Debug\EntityFramework.SqlServer.dll
+E:\Chau Milano\LT Web\TracNghiemLTK\DataLTK\bin\Debug\PagedList.dll
+E:\Chau Milano\LT Web\TracNghiemLTK\DataLTK\bin\Debug\PagedList.Mvc.dll
+E:\Chau Milano\LT Web\TracNghiemLTK\DataLTK\bin\Debug\EntityFramework.xml
+E:\Chau Milano\LT Web\TracNghiemLTK\DataLTK\bin\Debug\EntityFramework.SqlServer.xml
+E:\Chau Milano\LT Web\TracNghiemLTK\DataLTK\bin\Debug\PagedList.xml
+E:\Chau Milano\LT Web\TracNghiemLTK\DataLTK\bin\Debug\PagedList.Mvc.xml
+E:\Chau Milano\LT Web\TracNghiemLTK\DataLTK\obj\Debug\DataLTK.csprojResolveAssemblyReference.cache
+E:\Chau Milano\LT Web\TracNghiemLTK\DataLTK\obj\Debug\DataLTK.dll
+E:\Chau Milano\LT Web\TracNghiemLTK\DataLTK\obj\Debug\DataLTK.pdb
+E:\Chau Milano\LT Web\TracNghiemLTK\DataLTK\obj\Debug\DataLTK.csproj.CoreCompileInputs.cache
+E:\Chau Milano\LT Web\TracNghiemLTK\DataLTK\obj\Debug\DataLTK.csproj.CopyComplete
+E:\Chau Milano\LT Web\TracNghiemLTK\DataLTK\bin\Debug\System.Web.Mvc.dll

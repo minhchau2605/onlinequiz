@@ -1,0 +1,117 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="TracNghiemModelStoreContainer" CdmEntityContainer="TracNghiemEntities">
+    <EntitySetMapping Name="Quyens">
+      <EntityTypeMapping TypeName="TracNghiemModel.Quyen">
+        <MappingFragment StoreEntitySet="Quyen">
+          <ScalarProperty Name="MaQuyen" ColumnName="MaQuyen" />
+          <ScalarProperty Name="Ten" ColumnName="Ten" />
+          <ScalarProperty Name="MoTa" ColumnName="MoTa" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="MonThis">
+      <EntityTypeMapping TypeName="TracNghiemModel.MonThi">
+        <MappingFragment StoreEntitySet="MonThi">
+          <ScalarProperty Name="TenMon" ColumnName="TenMon" />
+          <ScalarProperty Name="MaMon" ColumnName="MaMon" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="ch_db">
+      <EntityTypeMapping TypeName="TracNghiemModel.ch_db">
+        <MappingFragment StoreEntitySet="ch_db">
+          <ScalarProperty Name="GhiChu" ColumnName="GhiChu" />
+          <ScalarProperty Name="MaDe" ColumnName="MaDe" />
+          <ScalarProperty Name="MaCauHoi" ColumnName="MaCauHoi" />
+          <ScalarProperty Name="id" ColumnName="id" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="ThiSinhs">
+      <EntityTypeMapping TypeName="TracNghiemModel.ThiSinh">
+        <MappingFragment StoreEntitySet="ThiSinh">
+          <ScalarProperty Name="Password" ColumnName="Password" />
+          <ScalarProperty Name="Image" ColumnName="Image" />
+          <ScalarProperty Name="NienKhoa" ColumnName="NienKhoa" />
+          <ScalarProperty Name="MaLop" ColumnName="MaLop" />
+          <ScalarProperty Name="DiaChi" ColumnName="DiaChi" />
+          <ScalarProperty Name="DanToc" ColumnName="DanToc" />
+          <ScalarProperty Name="NgaySinh" ColumnName="NgaySinh" />
+          <ScalarProperty Name="GioiTinh" ColumnName="GioiTinh" />
+          <ScalarProperty Name="HoTen" ColumnName="HoTen" />
+          <ScalarProperty Name="MaThiSinh" ColumnName="MaThiSinh" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="KetQuas">
+      <EntityTypeMapping TypeName="TracNghiemModel.KetQua">
+        <MappingFragment StoreEntitySet="KetQua">
+          <ScalarProperty Name="MaDe" ColumnName="MaDe" />
+          <ScalarProperty Name="Diem" ColumnName="Diem" />
+          <ScalarProperty Name="NgayThi" ColumnName="NgayThi" />
+          <ScalarProperty Name="MaThiSinh" ColumnName="MaThiSinh" />
+          <ScalarProperty Name="MaKetQua" ColumnName="MaKetQua" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="DeThis">
+      <EntityTypeMapping TypeName="TracNghiemModel.DeThi">
+        <MappingFragment StoreEntitySet="DeThi">
+          <ScalarProperty Name="Password" ColumnName="Password" />
+          <ScalarProperty Name="Audio" ColumnName="Audio" />
+          <ScalarProperty Name="Time" ColumnName="Time" />
+          <ScalarProperty Name="Status" ColumnName="Status" />
+          <ScalarProperty Name="MaxQuiz" ColumnName="MaxQuiz" />
+          <ScalarProperty Name="CreateBy" ColumnName="CreateBy" />
+          <ScalarProperty Name="CreateDate" ColumnName="CreateDate" />
+          <ScalarProperty Name="LoaiDe" ColumnName="LoaiDe" />
+          <ScalarProperty Name="MaMon" ColumnName="MaMon" />
+          <ScalarProperty Name="MoTa" ColumnName="MoTa" />
+          <ScalarProperty Name="MaDe" ColumnName="MaDe" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Lops">
+      <EntityTypeMapping TypeName="TracNghiemModel.Lop">
+        <MappingFragment StoreEntitySet="Lop">
+          <ScalarProperty Name="SiSo" ColumnName="SiSo" />
+          <ScalarProperty Name="Khoi" ColumnName="Khoi" />
+          <ScalarProperty Name="TenLop" ColumnName="TenLop" />
+          <ScalarProperty Name="MaLop" ColumnName="MaLop" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Quizs">
+      <EntityTypeMapping TypeName="TracNghiemModel.Quiz">
+        <MappingFragment StoreEntitySet="Quiz">
+          <ScalarProperty Name="DapAn" ColumnName="DapAn" />
+          <ScalarProperty Name="D" ColumnName="D" />
+          <ScalarProperty Name="C" ColumnName="C" />
+          <ScalarProperty Name="B" ColumnName="B" />
+          <ScalarProperty Name="A" ColumnName="A" />
+          <ScalarProperty Name="Picture" ColumnName="Picture" />
+          <ScalarProperty Name="CauHoi" ColumnName="CauHoi" />
+          <ScalarProperty Name="MaMon" ColumnName="MaMon" />
+          <ScalarProperty Name="MaCauHoi" ColumnName="MaCauHoi" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="TaiKhoans">
+      <EntityTypeMapping TypeName="TracNghiemModel.TaiKhoan">
+        <MappingFragment StoreEntitySet="TaiKhoan">
+          <ScalarProperty Name="Image" ColumnName="Image" />
+          <ScalarProperty Name="SDT" ColumnName="SDT" />
+          <ScalarProperty Name="DiaChi" ColumnName="DiaChi" />
+          <ScalarProperty Name="NgaySinh" ColumnName="NgaySinh" />
+          <ScalarProperty Name="GioiTinh" ColumnName="GioiTinh" />
+          <ScalarProperty Name="HoTen" ColumnName="HoTen" />
+          <ScalarProperty Name="MaQuyen" ColumnName="MaQuyen" />
+          <ScalarProperty Name="Password" ColumnName="Password" />
+          <ScalarProperty Name="Username" ColumnName="Username" />
+          <ScalarProperty Name="id" ColumnName="id" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>

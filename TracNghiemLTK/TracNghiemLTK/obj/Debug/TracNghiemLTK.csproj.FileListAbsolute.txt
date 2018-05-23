@@ -1,0 +1,171 @@
+D:\Projects\TracNghiemLTK\TracNghiemLTK\bin\ApplicationInsights.config
+D:\Projects\TracNghiemLTK\TracNghiemLTK\bin\roslyn\csc.exe
+D:\Projects\TracNghiemLTK\TracNghiemLTK\bin\roslyn\csc.exe.config
+D:\Projects\TracNghiemLTK\TracNghiemLTK\bin\roslyn\csc.rsp
+D:\Projects\TracNghiemLTK\TracNghiemLTK\bin\roslyn\csi.exe
+D:\Projects\TracNghiemLTK\TracNghiemLTK\bin\roslyn\csi.rsp
+D:\Projects\TracNghiemLTK\TracNghiemLTK\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+D:\Projects\TracNghiemLTK\TracNghiemLTK\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+D:\Projects\TracNghiemLTK\TracNghiemLTK\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+D:\Projects\TracNghiemLTK\TracNghiemLTK\bin\roslyn\Microsoft.CodeAnalysis.dll
+D:\Projects\TracNghiemLTK\TracNghiemLTK\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+D:\Projects\TracNghiemLTK\TracNghiemLTK\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+D:\Projects\TracNghiemLTK\TracNghiemLTK\bin\roslyn\Microsoft.CSharp.Core.targets
+D:\Projects\TracNghiemLTK\TracNghiemLTK\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+D:\Projects\TracNghiemLTK\TracNghiemLTK\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+D:\Projects\TracNghiemLTK\TracNghiemLTK\bin\roslyn\Microsoft.VisualBasic.Core.targets
+D:\Projects\TracNghiemLTK\TracNghiemLTK\bin\roslyn\System.AppContext.dll
+D:\Projects\TracNghiemLTK\TracNghiemLTK\bin\roslyn\System.Collections.Immutable.dll
+D:\Projects\TracNghiemLTK\TracNghiemLTK\bin\roslyn\System.Diagnostics.StackTrace.dll
+D:\Projects\TracNghiemLTK\TracNghiemLTK\bin\roslyn\System.IO.FileSystem.dll
+D:\Projects\TracNghiemLTK\TracNghiemLTK\bin\roslyn\System.IO.FileSystem.Primitives.dll
+D:\Projects\TracNghiemLTK\TracNghiemLTK\bin\roslyn\System.Reflection.Metadata.dll
+D:\Projects\TracNghiemLTK\TracNghiemLTK\bin\roslyn\vbc.exe
+D:\Projects\TracNghiemLTK\TracNghiemLTK\bin\roslyn\vbc.exe.config
+D:\Projects\TracNghiemLTK\TracNghiemLTK\bin\roslyn\vbc.rsp
+D:\Projects\TracNghiemLTK\TracNghiemLTK\bin\roslyn\VBCSCompiler.exe
+D:\Projects\TracNghiemLTK\TracNghiemLTK\bin\roslyn\VBCSCompiler.exe.config
+D:\Projects\TracNghiemLTK\TracNghiemLTK\bin\TracNghiemLTK.dll.config
+D:\Projects\TracNghiemLTK\TracNghiemLTK\bin\TracNghiemLTK.dll
+D:\Projects\TracNghiemLTK\TracNghiemLTK\bin\TracNghiemLTK.pdb
+D:\Projects\TracNghiemLTK\TracNghiemLTK\bin\Antlr3.Runtime.dll
+D:\Projects\TracNghiemLTK\TracNghiemLTK\bin\EntityFramework.dll
+D:\Projects\TracNghiemLTK\TracNghiemLTK\bin\EntityFramework.SqlServer.dll
+D:\Projects\TracNghiemLTK\TracNghiemLTK\bin\Microsoft.AI.Agent.Intercept.dll
+D:\Projects\TracNghiemLTK\TracNghiemLTK\bin\Microsoft.AI.DependencyCollector.dll
+D:\Projects\TracNghiemLTK\TracNghiemLTK\bin\Microsoft.AI.PerfCounterCollector.dll
+D:\Projects\TracNghiemLTK\TracNghiemLTK\bin\Microsoft.AI.ServerTelemetryChannel.dll
+D:\Projects\TracNghiemLTK\TracNghiemLTK\bin\Microsoft.AI.Web.dll
+D:\Projects\TracNghiemLTK\TracNghiemLTK\bin\Microsoft.AI.WindowsServer.dll
+D:\Projects\TracNghiemLTK\TracNghiemLTK\bin\Microsoft.ApplicationInsights.dll
+D:\Projects\TracNghiemLTK\TracNghiemLTK\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+D:\Projects\TracNghiemLTK\TracNghiemLTK\bin\Microsoft.Web.Infrastructure.dll
+D:\Projects\TracNghiemLTK\TracNghiemLTK\bin\Newtonsoft.Json.dll
+D:\Projects\TracNghiemLTK\TracNghiemLTK\bin\System.Net.Http.Formatting.dll
+D:\Projects\TracNghiemLTK\TracNghiemLTK\bin\System.Web.Helpers.dll
+D:\Projects\TracNghiemLTK\TracNghiemLTK\bin\System.Web.Http.dll
+D:\Projects\TracNghiemLTK\TracNghiemLTK\bin\System.Web.Http.WebHost.dll
+D:\Projects\TracNghiemLTK\TracNghiemLTK\bin\System.Web.Mvc.dll
+D:\Projects\TracNghiemLTK\TracNghiemLTK\bin\System.Web.Optimization.dll
+D:\Projects\TracNghiemLTK\TracNghiemLTK\bin\System.Web.Razor.dll
+D:\Projects\TracNghiemLTK\TracNghiemLTK\bin\System.Web.WebPages.Deployment.dll
+D:\Projects\TracNghiemLTK\TracNghiemLTK\bin\System.Web.WebPages.dll
+D:\Projects\TracNghiemLTK\TracNghiemLTK\bin\System.Web.WebPages.Razor.dll
+D:\Projects\TracNghiemLTK\TracNghiemLTK\bin\WebGrease.dll
+D:\Projects\TracNghiemLTK\TracNghiemLTK\bin\EntityFramework.xml
+D:\Projects\TracNghiemLTK\TracNghiemLTK\bin\EntityFramework.SqlServer.xml
+D:\Projects\TracNghiemLTK\TracNghiemLTK\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+D:\Projects\TracNghiemLTK\TracNghiemLTK\bin\Newtonsoft.Json.xml
+D:\Projects\TracNghiemLTK\TracNghiemLTK\bin\System.Net.Http.Formatting.xml
+D:\Projects\TracNghiemLTK\TracNghiemLTK\bin\System.Web.Helpers.xml
+D:\Projects\TracNghiemLTK\TracNghiemLTK\bin\System.Web.Http.xml
+D:\Projects\TracNghiemLTK\TracNghiemLTK\bin\System.Web.Http.WebHost.xml
+D:\Projects\TracNghiemLTK\TracNghiemLTK\bin\System.Web.Mvc.xml
+D:\Projects\TracNghiemLTK\TracNghiemLTK\bin\System.Web.Optimization.xml
+D:\Projects\TracNghiemLTK\TracNghiemLTK\bin\System.Web.Razor.xml
+D:\Projects\TracNghiemLTK\TracNghiemLTK\bin\System.Web.WebPages.xml
+D:\Projects\TracNghiemLTK\TracNghiemLTK\bin\System.Web.WebPages.Deployment.xml
+D:\Projects\TracNghiemLTK\TracNghiemLTK\bin\System.Web.WebPages.Razor.xml
+D:\Projects\TracNghiemLTK\TracNghiemLTK\bin\Antlr3.Runtime.pdb
+D:\Projects\TracNghiemLTK\TracNghiemLTK\bin\Microsoft.ApplicationInsights.xml
+D:\Projects\TracNghiemLTK\TracNghiemLTK\bin\Microsoft.AI.DependencyCollector.xml
+D:\Projects\TracNghiemLTK\TracNghiemLTK\bin\Microsoft.AI.ServerTelemetryChannel.xml
+D:\Projects\TracNghiemLTK\TracNghiemLTK\bin\Microsoft.AI.WindowsServer.xml
+D:\Projects\TracNghiemLTK\TracNghiemLTK\bin\Microsoft.AI.Web.xml
+D:\Projects\TracNghiemLTK\TracNghiemLTK\obj\Debug\TracNghiemLTK.dll
+D:\Projects\TracNghiemLTK\TracNghiemLTK\obj\Debug\TracNghiemLTK.pdb
+D:\Projects\TracNghiemLTK\TracNghiemLTK\bin\DataLTK.dll
+D:\Projects\TracNghiemLTK\TracNghiemLTK\bin\DataLTK.pdb
+D:\Projects\TracNghiemLTK\TracNghiemLTK\bin\DataLTK.dll.config
+D:\Projects\TracNghiemLTK\TracNghiemLTK\obj\Debug\TracNghiemLTK.csprojResolveAssemblyReference.cache
+D:\Projects\TracNghiemLTK\TracNghiemLTK\bin\PagedList.dll
+D:\Projects\TracNghiemLTK\TracNghiemLTK\bin\PagedList.Mvc.dll
+D:\Projects\TracNghiemLTK\TracNghiemLTK\bin\PagedList.xml
+D:\Projects\TracNghiemLTK\TracNghiemLTK\bin\PagedList.Mvc.xml
+D:\Projects\TracNghiemLTK\TracNghiemLTK\obj\Debug\TracNghiemLTK.csproj.CoreCompileInputs.cache
+E:\Chau Milano\LT Web\TracNghiemLTK\TracNghiemLTK\bin\ApplicationInsights.config
+E:\Chau Milano\LT Web\TracNghiemLTK\TracNghiemLTK\bin\roslyn\csc.exe
+E:\Chau Milano\LT Web\TracNghiemLTK\TracNghiemLTK\bin\roslyn\csc.exe.config
+E:\Chau Milano\LT Web\TracNghiemLTK\TracNghiemLTK\bin\roslyn\csc.rsp
+E:\Chau Milano\LT Web\TracNghiemLTK\TracNghiemLTK\bin\roslyn\csi.exe
+E:\Chau Milano\LT Web\TracNghiemLTK\TracNghiemLTK\bin\roslyn\csi.rsp
+E:\Chau Milano\LT Web\TracNghiemLTK\TracNghiemLTK\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+E:\Chau Milano\LT Web\TracNghiemLTK\TracNghiemLTK\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+E:\Chau Milano\LT Web\TracNghiemLTK\TracNghiemLTK\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+E:\Chau Milano\LT Web\TracNghiemLTK\TracNghiemLTK\bin\roslyn\Microsoft.CodeAnalysis.dll
+E:\Chau Milano\LT Web\TracNghiemLTK\TracNghiemLTK\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+E:\Chau Milano\LT Web\TracNghiemLTK\TracNghiemLTK\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+E:\Chau Milano\LT Web\TracNghiemLTK\TracNghiemLTK\bin\roslyn\Microsoft.CSharp.Core.targets
+E:\Chau Milano\LT Web\TracNghiemLTK\TracNghiemLTK\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+E:\Chau Milano\LT Web\TracNghiemLTK\TracNghiemLTK\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+E:\Chau Milano\LT Web\TracNghiemLTK\TracNghiemLTK\bin\roslyn\Microsoft.VisualBasic.Core.targets
+E:\Chau Milano\LT Web\TracNghiemLTK\TracNghiemLTK\bin\roslyn\System.AppContext.dll
+E:\Chau Milano\LT Web\TracNghiemLTK\TracNghiemLTK\bin\roslyn\System.Collections.Immutable.dll
+E:\Chau Milano\LT Web\TracNghiemLTK\TracNghiemLTK\bin\roslyn\System.Diagnostics.StackTrace.dll
+E:\Chau Milano\LT Web\TracNghiemLTK\TracNghiemLTK\bin\roslyn\System.IO.FileSystem.dll
+E:\Chau Milano\LT Web\TracNghiemLTK\TracNghiemLTK\bin\roslyn\System.IO.FileSystem.Primitives.dll
+E:\Chau Milano\LT Web\TracNghiemLTK\TracNghiemLTK\bin\roslyn\System.Reflection.Metadata.dll
+E:\Chau Milano\LT Web\TracNghiemLTK\TracNghiemLTK\bin\roslyn\vbc.exe
+E:\Chau Milano\LT Web\TracNghiemLTK\TracNghiemLTK\bin\roslyn\vbc.exe.config
+E:\Chau Milano\LT Web\TracNghiemLTK\TracNghiemLTK\bin\roslyn\vbc.rsp
+E:\Chau Milano\LT Web\TracNghiemLTK\TracNghiemLTK\bin\roslyn\VBCSCompiler.exe
+E:\Chau Milano\LT Web\TracNghiemLTK\TracNghiemLTK\bin\roslyn\VBCSCompiler.exe.config
+E:\Chau Milano\LT Web\TracNghiemLTK\TracNghiemLTK\bin\TracNghiemLTK.dll.config
+E:\Chau Milano\LT Web\TracNghiemLTK\TracNghiemLTK\bin\TracNghiemLTK.dll
+E:\Chau Milano\LT Web\TracNghiemLTK\TracNghiemLTK\bin\TracNghiemLTK.pdb
+E:\Chau Milano\LT Web\TracNghiemLTK\TracNghiemLTK\bin\Antlr3.Runtime.dll
+E:\Chau Milano\LT Web\TracNghiemLTK\TracNghiemLTK\bin\DataLTK.dll
+E:\Chau Milano\LT Web\TracNghiemLTK\TracNghiemLTK\bin\EntityFramework.dll
+E:\Chau Milano\LT Web\TracNghiemLTK\TracNghiemLTK\bin\EntityFramework.SqlServer.dll
+E:\Chau Milano\LT Web\TracNghiemLTK\TracNghiemLTK\bin\Microsoft.AI.Agent.Intercept.dll
+E:\Chau Milano\LT Web\TracNghiemLTK\TracNghiemLTK\bin\Microsoft.AI.DependencyCollector.dll
+E:\Chau Milano\LT Web\TracNghiemLTK\TracNghiemLTK\bin\Microsoft.AI.PerfCounterCollector.dll
+E:\Chau Milano\LT Web\TracNghiemLTK\TracNghiemLTK\bin\Microsoft.AI.ServerTelemetryChannel.dll
+E:\Chau Milano\LT Web\TracNghiemLTK\TracNghiemLTK\bin\Microsoft.AI.Web.dll
+E:\Chau Milano\LT Web\TracNghiemLTK\TracNghiemLTK\bin\Microsoft.AI.WindowsServer.dll
+E:\Chau Milano\LT Web\TracNghiemLTK\TracNghiemLTK\bin\Microsoft.ApplicationInsights.dll
+E:\Chau Milano\LT Web\TracNghiemLTK\TracNghiemLTK\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+E:\Chau Milano\LT Web\TracNghiemLTK\TracNghiemLTK\bin\Microsoft.Web.Infrastructure.dll
+E:\Chau Milano\LT Web\TracNghiemLTK\TracNghiemLTK\bin\Newtonsoft.Json.dll
+E:\Chau Milano\LT Web\TracNghiemLTK\TracNghiemLTK\bin\PagedList.dll
+E:\Chau Milano\LT Web\TracNghiemLTK\TracNghiemLTK\bin\PagedList.Mvc.dll
+E:\Chau Milano\LT Web\TracNghiemLTK\TracNghiemLTK\bin\System.Net.Http.Formatting.dll
+E:\Chau Milano\LT Web\TracNghiemLTK\TracNghiemLTK\bin\System.Web.Helpers.dll
+E:\Chau Milano\LT Web\TracNghiemLTK\TracNghiemLTK\bin\System.Web.Http.dll
+E:\Chau Milano\LT Web\TracNghiemLTK\TracNghiemLTK\bin\System.Web.Http.WebHost.dll
+E:\Chau Milano\LT Web\TracNghiemLTK\TracNghiemLTK\bin\System.Web.Mvc.dll
+E:\Chau Milano\LT Web\TracNghiemLTK\TracNghiemLTK\bin\System.Web.Optimization.dll
+E:\Chau Milano\LT Web\TracNghiemLTK\TracNghiemLTK\bin\System.Web.Razor.dll
+E:\Chau Milano\LT Web\TracNghiemLTK\TracNghiemLTK\bin\System.Web.WebPages.Deployment.dll
+E:\Chau Milano\LT Web\TracNghiemLTK\TracNghiemLTK\bin\System.Web.WebPages.dll
+E:\Chau Milano\LT Web\TracNghiemLTK\TracNghiemLTK\bin\System.Web.WebPages.Razor.dll
+E:\Chau Milano\LT Web\TracNghiemLTK\TracNghiemLTK\bin\WebGrease.dll
+E:\Chau Milano\LT Web\TracNghiemLTK\TracNghiemLTK\bin\DataLTK.pdb
+E:\Chau Milano\LT Web\TracNghiemLTK\TracNghiemLTK\bin\EntityFramework.xml
+E:\Chau Milano\LT Web\TracNghiemLTK\TracNghiemLTK\bin\EntityFramework.SqlServer.xml
+E:\Chau Milano\LT Web\TracNghiemLTK\TracNghiemLTK\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+E:\Chau Milano\LT Web\TracNghiemLTK\TracNghiemLTK\bin\PagedList.xml
+E:\Chau Milano\LT Web\TracNghiemLTK\TracNghiemLTK\bin\PagedList.Mvc.xml
+E:\Chau Milano\LT Web\TracNghiemLTK\TracNghiemLTK\bin\Newtonsoft.Json.xml
+E:\Chau Milano\LT Web\TracNghiemLTK\TracNghiemLTK\bin\System.Net.Http.Formatting.xml
+E:\Chau Milano\LT Web\TracNghiemLTK\TracNghiemLTK\bin\System.Web.Helpers.xml
+E:\Chau Milano\LT Web\TracNghiemLTK\TracNghiemLTK\bin\System.Web.Http.xml
+E:\Chau Milano\LT Web\TracNghiemLTK\TracNghiemLTK\bin\System.Web.Http.WebHost.xml
+E:\Chau Milano\LT Web\TracNghiemLTK\TracNghiemLTK\bin\System.Web.Mvc.xml
+E:\Chau Milano\LT Web\TracNghiemLTK\TracNghiemLTK\bin\System.Web.Optimization.xml
+E:\Chau Milano\LT Web\TracNghiemLTK\TracNghiemLTK\bin\System.Web.Razor.xml
+E:\Chau Milano\LT Web\TracNghiemLTK\TracNghiemLTK\bin\System.Web.WebPages.xml
+E:\Chau Milano\LT Web\TracNghiemLTK\TracNghiemLTK\bin\System.Web.WebPages.Deployment.xml
+E:\Chau Milano\LT Web\TracNghiemLTK\TracNghiemLTK\bin\System.Web.WebPages.Razor.xml
+E:\Chau Milano\LT Web\TracNghiemLTK\TracNghiemLTK\bin\Antlr3.Runtime.pdb
+E:\Chau Milano\LT Web\TracNghiemLTK\TracNghiemLTK\bin\Microsoft.ApplicationInsights.xml
+E:\Chau Milano\LT Web\TracNghiemLTK\TracNghiemLTK\bin\Microsoft.AI.DependencyCollector.xml
+E:\Chau Milano\LT Web\TracNghiemLTK\TracNghiemLTK\bin\Microsoft.AI.ServerTelemetryChannel.xml
+E:\Chau Milano\LT Web\TracNghiemLTK\TracNghiemLTK\bin\Microsoft.AI.WindowsServer.xml
+E:\Chau Milano\LT Web\TracNghiemLTK\TracNghiemLTK\bin\Microsoft.AI.Web.xml
+E:\Chau Milano\LT Web\TracNghiemLTK\TracNghiemLTK\obj\Debug\TracNghiemLTK.csprojResolveAssemblyReference.cache
+E:\Chau Milano\LT Web\TracNghiemLTK\TracNghiemLTK\obj\Debug\TracNghiemLTK.dll
+E:\Chau Milano\LT Web\TracNghiemLTK\TracNghiemLTK\obj\Debug\TracNghiemLTK.pdb
+E:\Chau Milano\LT Web\TracNghiemLTK\TracNghiemLTK\bin\DataLTK.dll.config
+E:\Chau Milano\LT Web\TracNghiemLTK\TracNghiemLTK\obj\Debug\TracNghiemLTK.csproj.CoreCompileInputs.cache
+E:\Chau Milano\LT Web\TracNghiemLTK\TracNghiemLTK\obj\Debug\TracNghiemLTK.csproj.CopyComplete

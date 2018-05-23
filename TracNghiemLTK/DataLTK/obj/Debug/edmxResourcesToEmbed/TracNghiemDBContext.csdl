@@ -1,0 +1,279 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="TracNghiemModel" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+  <EntityType Name="Quyen">
+    <Key>
+      <PropertyRef Name="MaQuyen" />
+    </Key>
+    <Property Name="MaQuyen" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="Ten" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="MoTa" Type="String" MaxLength="150" FixedLength="false" Unicode="true" />
+    <NavigationProperty Name="TaiKhoans" Relationship="TracNghiemModel.FK_TaiKhoan_Quyen" FromRole="Quyen" ToRole="TaiKhoan" />
+  </EntityType>
+  <EntityContainer Name="TracNghiemEntities" annotation:LazyLoadingEnabled="true">
+    <EntitySet Name="Quyens" EntityType="Self.Quyen" />
+    <EntitySet Name="MonThis" EntityType="TracNghiemModel.MonThi" />
+    <EntitySet Name="ch_db" EntityType="TracNghiemModel.ch_db" />
+    <EntitySet Name="ThiSinhs" EntityType="TracNghiemModel.ThiSinh" />
+    <EntitySet Name="KetQuas" EntityType="TracNghiemModel.KetQua" />
+    <AssociationSet Name="FK_KetQua_ThiSinh" Association="TracNghiemModel.FK_KetQua_ThiSinh">
+      <End Role="ThiSinh" EntitySet="ThiSinhs" />
+      <End Role="KetQua" EntitySet="KetQuas" />
+    </AssociationSet>
+    <EntitySet Name="DeThis" EntityType="TracNghiemModel.DeThi" />
+    <EntitySet Name="Lops" EntityType="TracNghiemModel.Lop" />
+    <EntitySet Name="Quizs" EntityType="TracNghiemModel.Quiz" />
+    <EntitySet Name="TaiKhoans" EntityType="TracNghiemModel.TaiKhoan" />
+    <AssociationSet Name="FK_ch_db_DeThi" Association="TracNghiemModel.FK_ch_db_DeThi">
+      <End Role="DeThi" EntitySet="DeThis" />
+      <End Role="ch_db" EntitySet="ch_db" />
+    </AssociationSet>
+    <AssociationSet Name="FK_ch_db_Quiz" Association="TracNghiemModel.FK_ch_db_Quiz">
+      <End Role="Quiz" EntitySet="Quizs" />
+      <End Role="ch_db" EntitySet="ch_db" />
+    </AssociationSet>
+    <AssociationSet Name="FK_DeThi_MonThi" Association="TracNghiemModel.FK_DeThi_MonThi">
+      <End Role="MonThi" EntitySet="MonThis" />
+      <End Role="DeThi" EntitySet="DeThis" />
+    </AssociationSet>
+    <AssociationSet Name="FK_DeThi_TaiKhoan" Association="TracNghiemModel.FK_DeThi_TaiKhoan">
+      <End Role="TaiKhoan" EntitySet="TaiKhoans" />
+      <End Role="DeThi" EntitySet="DeThis" />
+    </AssociationSet>
+    <AssociationSet Name="FK_KetQua_DeThi" Association="TracNghiemModel.FK_KetQua_DeThi">
+      <End Role="DeThi" EntitySet="DeThis" />
+      <End Role="KetQua" EntitySet="KetQuas" />
+    </AssociationSet>
+    <AssociationSet Name="FK_ThiSinh_Lop" Association="TracNghiemModel.FK_ThiSinh_Lop">
+      <End Role="Lop" EntitySet="Lops" />
+      <End Role="ThiSinh" EntitySet="ThiSinhs" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Quiz_MonThi" Association="TracNghiemModel.FK_Quiz_MonThi">
+      <End Role="MonThi" EntitySet="MonThis" />
+      <End Role="Quiz" EntitySet="Quizs" />
+    </AssociationSet>
+    <AssociationSet Name="FK_TaiKhoan_Quyen" Association="TracNghiemModel.FK_TaiKhoan_Quyen">
+      <End Role="Quyen" EntitySet="Quyens" />
+      <End Role="TaiKhoan" EntitySet="TaiKhoans" />
+    </AssociationSet>
+  </EntityContainer>
+  <EntityType Name="MonThi">
+    <Key>
+      <PropertyRef Name="MaMon" />
+    </Key>
+    <Property Name="MaMon" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="TenMon" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <NavigationProperty Name="DeThis" Relationship="TracNghiemModel.FK_DeThi_MonThi" FromRole="MonThi" ToRole="DeThi" />
+    <NavigationProperty Name="Quizs" Relationship="TracNghiemModel.FK_Quiz_MonThi" FromRole="MonThi" ToRole="Quiz" />
+  </EntityType>
+  <EntityType Name="ch_db">
+    <Key>
+      <PropertyRef Name="id" />
+    </Key>
+    <Property Name="id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="MaCauHoi" Type="Int32" />
+    <Property Name="MaDe" Type="Int32" />
+    <Property Name="GhiChu" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <NavigationProperty Name="DeThi" Relationship="TracNghiemModel.FK_ch_db_DeThi" FromRole="ch_db" ToRole="DeThi" />
+    <NavigationProperty Name="Quiz" Relationship="TracNghiemModel.FK_ch_db_Quiz" FromRole="ch_db" ToRole="Quiz" />
+  </EntityType>
+  <EntityType Name="ThiSinh">
+    <Key>
+      <PropertyRef Name="MaThiSinh" />
+    </Key>
+    <Property Name="MaThiSinh" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="HoTen" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="GioiTinh" Type="Boolean" />
+    <Property Name="NgaySinh" Type="DateTime" Precision="0" />
+    <Property Name="DanToc" Type="String" MaxLength="20" FixedLength="false" Unicode="true" />
+    <Property Name="DiaChi" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="MaLop" Type="Int32" />
+    <Property Name="NienKhoa" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="Image" Type="Binary" MaxLength="Max" FixedLength="false" />
+    <Property Name="Password" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <NavigationProperty Name="KetQuas" Relationship="TracNghiemModel.FK_KetQua_ThiSinh" FromRole="ThiSinh" ToRole="KetQua" />
+    <NavigationProperty Name="Lop" Relationship="TracNghiemModel.FK_ThiSinh_Lop" FromRole="ThiSinh" ToRole="Lop" />
+  </EntityType>
+  <EntityType Name="KetQua">
+    <Key>
+      <PropertyRef Name="MaKetQua" />
+    </Key>
+    <Property Name="MaKetQua" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="MaThiSinh" Type="Int32" />
+    <Property Name="NgayThi" Type="DateTime" Precision="0" />
+    <Property Name="Diem" Type="Double" />
+    <Property Name="MaDe" Type="Int32" />
+    <NavigationProperty Name="ThiSinh" Relationship="TracNghiemModel.FK_KetQua_ThiSinh" FromRole="KetQua" ToRole="ThiSinh" />
+    <NavigationProperty Name="DeThi" Relationship="TracNghiemModel.FK_KetQua_DeThi" FromRole="KetQua" ToRole="DeThi" />
+  </EntityType>
+  <Association Name="FK_KetQua_ThiSinh">
+    <End Type="TracNghiemModel.ThiSinh" Role="ThiSinh" Multiplicity="0..1" />
+    <End Type="TracNghiemModel.KetQua" Role="KetQua" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="ThiSinh">
+        <PropertyRef Name="MaThiSinh" />
+      </Principal>
+      <Dependent Role="KetQua">
+        <PropertyRef Name="MaThiSinh" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <EntityType Name="DeThi">
+    <Key>
+      <PropertyRef Name="MaDe" />
+    </Key>
+    <Property Name="MaDe" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="MoTa" Type="String" MaxLength="500" FixedLength="false" Unicode="true" />
+    <Property Name="MaMon" Type="Int32" />
+    <Property Name="LoaiDe" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="CreateDate" Type="DateTime" Precision="0" />
+    <Property Name="CreateBy" Type="Int32" />
+    <Property Name="MaxQuiz" Type="Int32" />
+    <Property Name="Status" Type="Boolean" />
+    <Property Name="Time" Type="Int32" />
+    <Property Name="Audio" Type="String" MaxLength="250" FixedLength="false" Unicode="true" />
+    <Property Name="Password" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <NavigationProperty Name="ch_db" Relationship="TracNghiemModel.FK_ch_db_DeThi" FromRole="DeThi" ToRole="ch_db" />
+    <NavigationProperty Name="MonThi" Relationship="TracNghiemModel.FK_DeThi_MonThi" FromRole="DeThi" ToRole="MonThi" />
+    <NavigationProperty Name="TaiKhoan" Relationship="TracNghiemModel.FK_DeThi_TaiKhoan" FromRole="DeThi" ToRole="TaiKhoan" />
+    <NavigationProperty Name="KetQuas" Relationship="TracNghiemModel.FK_KetQua_DeThi" FromRole="DeThi" ToRole="KetQua" />
+  </EntityType>
+  <EntityType Name="Lop">
+    <Key>
+      <PropertyRef Name="MaLop" />
+    </Key>
+    <Property Name="MaLop" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="TenLop" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="Khoi" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="SiSo" Type="Int32" />
+    <NavigationProperty Name="ThiSinhs" Relationship="TracNghiemModel.FK_ThiSinh_Lop" FromRole="Lop" ToRole="ThiSinh" />
+  </EntityType>
+  <EntityType Name="Quiz">
+    <Key>
+      <PropertyRef Name="MaCauHoi" />
+    </Key>
+    <Property Name="MaCauHoi" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="MaMon" Type="Int32" />
+    <Property Name="CauHoi" Type="String" MaxLength="250" FixedLength="false" Unicode="true" />
+    <Property Name="Picture" Type="Binary" MaxLength="Max" FixedLength="false" />
+    <Property Name="A" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="B" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="C" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="D" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="DapAn" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <NavigationProperty Name="ch_db" Relationship="TracNghiemModel.FK_ch_db_Quiz" FromRole="Quiz" ToRole="ch_db" />
+    <NavigationProperty Name="MonThi" Relationship="TracNghiemModel.FK_Quiz_MonThi" FromRole="Quiz" ToRole="MonThi" />
+  </EntityType>
+  <EntityType Name="TaiKhoan">
+    <Key>
+      <PropertyRef Name="id" />
+    </Key>
+    <Property Name="id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="Username" Type="String" Nullable="false" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="Password" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="MaQuyen" Type="Int32" />
+    <Property Name="HoTen" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="GioiTinh" Type="Boolean" />
+    <Property Name="NgaySinh" Type="DateTime" Precision="0" />
+    <Property Name="DiaChi" Type="String" MaxLength="150" FixedLength="false" Unicode="true" />
+    <Property Name="SDT" Type="Int32" />
+    <Property Name="Image" Type="Binary" MaxLength="Max" FixedLength="false" />
+    <NavigationProperty Name="DeThis" Relationship="TracNghiemModel.FK_DeThi_TaiKhoan" FromRole="TaiKhoan" ToRole="DeThi" />
+    <NavigationProperty Name="Quyen" Relationship="TracNghiemModel.FK_TaiKhoan_Quyen" FromRole="TaiKhoan" ToRole="Quyen" />
+  </EntityType>
+  <Association Name="FK_ch_db_DeThi">
+    <End Type="TracNghiemModel.DeThi" Role="DeThi" Multiplicity="0..1" />
+    <End Type="TracNghiemModel.ch_db" Role="ch_db" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="DeThi">
+        <PropertyRef Name="MaDe" />
+      </Principal>
+      <Dependent Role="ch_db">
+        <PropertyRef Name="MaDe" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_ch_db_Quiz">
+    <End Type="TracNghiemModel.Quiz" Role="Quiz" Multiplicity="0..1" />
+    <End Type="TracNghiemModel.ch_db" Role="ch_db" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Quiz">
+        <PropertyRef Name="MaCauHoi" />
+      </Principal>
+      <Dependent Role="ch_db">
+        <PropertyRef Name="MaCauHoi" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_DeThi_MonThi">
+    <End Type="TracNghiemModel.MonThi" Role="MonThi" Multiplicity="0..1" />
+    <End Type="TracNghiemModel.DeThi" Role="DeThi" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="MonThi">
+        <PropertyRef Name="MaMon" />
+      </Principal>
+      <Dependent Role="DeThi">
+        <PropertyRef Name="MaMon" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_DeThi_TaiKhoan">
+    <End Type="TracNghiemModel.TaiKhoan" Role="TaiKhoan" Multiplicity="0..1" />
+    <End Type="TracNghiemModel.DeThi" Role="DeThi" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="TaiKhoan">
+        <PropertyRef Name="id" />
+      </Principal>
+      <Dependent Role="DeThi">
+        <PropertyRef Name="CreateBy" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_KetQua_DeThi">
+    <End Type="TracNghiemModel.DeThi" Role="DeThi" Multiplicity="0..1" />
+    <End Type="TracNghiemModel.KetQua" Role="KetQua" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="DeThi">
+        <PropertyRef Name="MaDe" />
+      </Principal>
+      <Dependent Role="KetQua">
+        <PropertyRef Name="MaDe" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_ThiSinh_Lop">
+    <End Type="TracNghiemModel.Lop" Role="Lop" Multiplicity="0..1" />
+    <End Type="TracNghiemModel.ThiSinh" Role="ThiSinh" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Lop">
+        <PropertyRef Name="MaLop" />
+      </Principal>
+      <Dependent Role="ThiSinh">
+        <PropertyRef Name="MaLop" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Quiz_MonThi">
+    <End Type="TracNghiemModel.MonThi" Role="MonThi" Multiplicity="0..1" />
+    <End Type="TracNghiemModel.Quiz" Role="Quiz" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="MonThi">
+        <PropertyRef Name="MaMon" />
+      </Principal>
+      <Dependent Role="Quiz">
+        <PropertyRef Name="MaMon" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_TaiKhoan_Quyen">
+    <End Type="TracNghiemModel.Quyen" Role="Quyen" Multiplicity="0..1" />
+    <End Type="TracNghiemModel.TaiKhoan" Role="TaiKhoan" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Quyen">
+        <PropertyRef Name="MaQuyen" />
+      </Principal>
+      <Dependent Role="TaiKhoan">
+        <PropertyRef Name="MaQuyen" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+</Schema>

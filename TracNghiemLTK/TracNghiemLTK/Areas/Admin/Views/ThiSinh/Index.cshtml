@@ -1,0 +1,104 @@
+﻿
+@{
+    ViewBag.Title = "Danh sách thí sinh";
+    Layout = "~/Areas/Admin/Views/Shared/_Layout.cshtml";
+}
+@*@model List<DataLTK.DeatView.ThiSinhView>*@
+@model PagedList.IPagedList<DataLTK.DeatView.ThiSinhView>
+@using PagedList.Mvc;
+<div class="title_right">
+    @using (Html.BeginForm("Index", "ThiSinh", FormMethod.Get))
+    {
+        <div class="col-md-5 col-sm-5 col-xs-12 form-group pull-right top_search">
+            <div class="input-group">
+                <input type="text" class="form-control" value ="@ViewBag.searchString" name="searchString" placeholder="Tìm kiếm theo lớp...">
+                <span class="input-group-btn">
+                    <button class="btn btn-default" type="submit">Tìm</button>
+                </span>
+            </div>
+        </div>
+    }
+</div>
+<div class="clearfix"></div>
+<div class="x_panel">
+    <div class="x_title">
+        <h2>Thí sinh <small>Danh sách</small></h2>
+        <ul class="nav navbar-right panel_toolbox">
+            <li>
+                <a class="collapse-link"><i class="fa fa-chevron-up"></i></a>
+            </li>
+            <li class="dropdown">
+                <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false"><i class="fa fa-wrench"></i></a>
+                <ul class="dropdown-menu" role="menu">
+                    <li>
+                        <a href="#">Settings 1</a>
+                    </li>
+                    <li>
+                        <a href="#">Settings 2</a>
+                    </li>
+                </ul>
+            </li>
+            <li>
+                <a class="close-link"><i class="fa fa-close"></i></a>
+            </li>
+        </ul>
+        <div class="clearfix"></div>
+    </div>
+    <div class="x_content table-responsive">
+        <table class="table table-hover">
+            <thead>
+                <tr>
+                    <th>Mã thí sinh</th>
+                    <th>Tên thí sinh</th>
+                    <th>Giới tính</th>
+                    <th>Ngày sinh</th>
+                    <th>Địa chỉ</th>
+                    <th>Tên lớp</th>
+                    <th>Khối</th>
+                    <th>Tác vụ</th>
+                </tr>
+            </thead>
+            <tbody>
+                @foreach (var item in Model)
+            {
+                <tr id="row_@item.MaThiSinh">
+                    <th scope="row">@item.MaThiSinh</th>
+                    <td>@item.HoTen</td>
+                    @if (item.GioiTinh == true)
+                {
+                    <td>Nam</td>
+            }
+            else
+            {
+                <td>Nữ</td>
+        }
+                    <td>@(item.NgaySinh.HasValue ? item.NgaySinh.Value.ToString("dd/MM/yyyy") : "Chưa rõ")</td>
+                    <td>@item.DiaChi</td>
+                    <td>@item.TenLop</td>
+                    <td>@item.Khoi</td>
+                    <td>
+                        @Html.ActionLink("Chi tiết", "Details", new { id = item.MaThiSinh }, new { @class = "btn btn-primary btn-xs" })
+                        @Html.ActionLink("Sửa", "Edit", new { id = item.MaThiSinh }, new { @class = "btn btn-info btn-xs" })
+                        @Ajax.ActionLink("Xóa", "Delete", new { @id = item.MaThiSinh }, new AjaxOptions
+                    {
+                        Confirm = "Tất cả dữ liệu về học sinh này sẽ mất, bạn chắc chắn muốn xóa chứ ?",
+                        OnComplete = "$('#row_" + item.MaThiSinh + "').remove()",
+                        HttpMethod = "Delete"
+                    }, new { @class = "btn btn-danger btn-xs" })
+                    </td>
+                </tr>
+        }
+                <tr>
+                    <td>
+                        <a href="/Admin/ThiSinh/Create" class="btn btn-success"><i class="fa fa-plus-circle"></i> Thêm mới</a>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+        @Html.PagedListPager(Model, page => Url.Action("Index", new { page, @searchString = @ViewBag.searchString }))
+    </div>
+</div>
+
+
+
+
